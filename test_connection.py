@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot
 
 async def safe_start():
-    bot = Bot(token="8984657963:AAF7Ljvl3gWkhnNmsxQGo3rm3XS0is-Kpv8")
+    bot = Bot(token="9206074048:AAGBjkzKkFR9tAmoV4B47_J34tGIq3QKKUA")
     for i in range(5):
         try:
             await bot.get_me()
